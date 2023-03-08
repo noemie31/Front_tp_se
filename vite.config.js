@@ -17,13 +17,13 @@ export default defineConfig({
         // Pour un backend en local
         //target: 'http://localhost:8989', // correspond à la config du backend server.port dans application.properties
         // Pour le backend déployé sur Heroku
-        target: 'https://SpringAjax.herokuapp.com',
+        target: 'https://applicationse2.azurewebsites.net',
         changeOrigin: true,
       },
       '/services': { // correspond à la config du backend server.port dans application.properties
         //target: 'http://localhost:8989',
         // Pour le backend déployé sur Heroku
-        target: 'https://SpringAjax.herokuapp.com',
+        target: 'https://applicationse2.azurewebsites.net',
         changeOrigin: true,
       }
     },
